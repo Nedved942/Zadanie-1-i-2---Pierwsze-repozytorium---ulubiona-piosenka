@@ -1,0 +1,571 @@
+$ git log -p piosenka.txt
+commit 2ef5b0251ed4e4ef1dfe103221bddc55b50f5954 (HEAD -> master, origin/master)
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 22:38:57 2023 +0200
+
+    Poprawienie nazw plików w pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 80ba08b..819fe6d 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,11 +1,11 @@
+-Zwrotka 1.txt
++zwrotka 1.txt
+
+-Refren.txt
++refren.txt
+
+-Zwrotka 2.txt
++zwrotka 2.txt
+
+-Refren.txt
++refren.txt
+
+-Zwrotka 3.txt
++zwrotka 3.txt
+
+-Refren.txt
+\ No newline at end of file
++refren.txt
+\ No newline at end of file
+
+commit 563a57386dd179b26fbece4ffb3a7b3ffd5a366c
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 22:38:08 2023 +0200
+
+    Usunięcie powtarzających się plików refren i zmiana nazwy refrenu na refren.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 3b8406d..80ba08b 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,11 +1,11 @@
+ Zwrotka 1.txt
+
+-Refren 1.txt
++Refren.txt
+
+ Zwrotka 2.txt
+
+-Refren 2.txt
++Refren.txt
+
+ Zwrotka 3.txt
+
+-Refren 3.txt
+\ No newline at end of file
++Refren.txt
+\ No newline at end of file
+
+commit 787d2446b0a7dc239323343788458b4738f6a5fc
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:43:22 2023 +0200
+
+    Poprawienie nazw plików (dodanie rozszerzenia) w pliku piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 9f899fa..3b8406d 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,11 +1,11 @@
+-Zwrotka 1
++Zwrotka 1.txt
+
+-Refren 1
++Refren 1.txt
+
+-Zwrotka 2
++Zwrotka 2.txt
+
+-Refren 2
++Refren 2.txt
+
+-Zwrotka 3
++Zwrotka 3.txt
+
+-Refren 3
+\ No newline at end of file
++Refren 3.txt
+\ No newline at end of file
+
+commit 70aa4466354a5d7c316b30844a4733461b9c5078
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:40:42 2023 +0200
+
+    Utworzenie pliku refren 3.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 550bc31..9f899fa 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -8,8 +8,4 @@ Refren 2
+
+ Zwrotka 3
+
+-Yo no sé mañana, yo no sé mañana
+-Si estaremos juntos, si se acaba el mundo
+-Yo no sé si soy para ti, si serás para mí
+-Si lleguemos a amarnos o a odiarnos
+-Yo no sé mañana, yo no sé mañana
+\ No newline at end of file
++Refren 3
+\ No newline at end of file
+
+commit 77ff92bf72188c8ea311acb19e080db8bd3c9498
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:39:52 2023 +0200
+
+    Utworzenie pliku zwrotka 3.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 9ec0792..550bc31 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -6,34 +6,7 @@ Zwrotka 2
+
+ Refren 2
+
+-Esta vida es igual que a un libro
+-Cada página es un día vivido
+-No tratemos de correr antes de andar
+-
+-Esta noche estamos vivos
+-Sólo este momento es realidad
+-No, oh, uh, no sé, oh
+-
+-Esta vida es una ruleta que gira sin parar
+-(Yo no sé mañana)
+-Yo no sé si tú, yo no sé si yo, cómo será el final
+-
+-Puede ser peor o puede ser mejor
+-(Yo no sé mañana)
+-Deja que el corazón decida, vida mía, lo que sentimos
+-
+-Mañana, yo no sé
+-
+-Ahora lo que vivimos es algo realmente lindo
+-¿Quién puede saber lo que pasará?
+-Mañana no hay nada escrito
+-
+-Estamos solos tú y yo
+-Y los momentos hay que vivirlos
+-Hay que vivirlos (Oye)
+-
+-Yo no sé, yo no sé
+-Yo no sé, yo no sé
++Zwrotka 3
+
+ Yo no sé mañana, yo no sé mañana
+ Si estaremos juntos, si se acaba el mundo
+
+commit 0f8fe6b527af9c7959fafb8356fcdc2b2db1d52b
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:37:42 2023 +0200
+
+    Utworzenie pliku refren 2.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 85dca92..9ec0792 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -4,12 +4,7 @@ Refren 1
+
+ Zwrotka 2
+
+-Yo no sé mañana, yo no sé mañana
+-Si estaremos juntos, si se acaba el mundo
+-Yo no sé si soy para ti, si serás para mí
+-Si lleguemos a amarnos o a odiarnos
+-Yo no sé mañana, yo no sé mañana
+-Quién va estar aquí
++Refren 2
+
+ Esta vida es igual que a un libro
+ Cada página es un día vivido
+
+commit f7b4f1d0cecc926346928932122551b7ca8c8dbb
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:36:43 2023 +0200
+
+    Utworzenie pliku zwrotka 2.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 78bf927..85dca92 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -2,14 +2,7 @@ Zwrotka 1
+
+ Refren 1
+
+-De un café pasamos al sofá
+-De un botón a todo lo demás
+-No pusimos reglas ni reloj
+-Aquí estamos solos tú y yo
+-
+-Todo lo que ves es lo que soy
+-No me pidas más de lo que doy
+-No-oh-oh
++Zwrotka 2
+
+ Yo no sé mañana, yo no sé mañana
+ Si estaremos juntos, si se acaba el mundo
+
+commit 14cd605f1c6875355de6954c0dd5b63551e7bae6
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:34:42 2023 +0200
+
+    Utworzenie pliku refren 1.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index 46608e7..78bf927 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,11 +1,6 @@
+ Zwrotka 1
+
+-Yo no sé mañana, yo no sé mañana
+-Si estaremos juntos, si se acaba el mundo
+-Yo no sé si soy para ti, si serás para mí
+-Si lleguemos a amarnos o a odiarnos
+-Yo no sé mañana, yo no sé mañana
+-Quién va estar aquí
++Refren 1
+
+ De un café pasamos al sofá
+ De un botón a todo lo demás
+
+commit 4585f5ee119678be5ae827fb380be9cd2a266ffa
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:33:05 2023 +0200
+
+    Utworzenie pliku zwrotka 1.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/piosenka.txt b/piosenka.txt
+index c4e62ee..46608e7 100644
+--- a/piosenka.txt
++++ b/piosenka.txt
+@@ -1,23 +1,4 @@
+-Uh, uh-uh-uh
+-No-oh-oh
+-Na-na-ra-na-na-ah-ah
+-
+-Yo no sé si tú, no sé si yo
+-Seguiremos siendo como hoy
+-No sé si después de amanecer
+-Vamos a sentir la misma sed
+-
+-Para qué pensar y suponer
+-No preguntes cosas que no sé
+-Yo no sé
+-
+-No sé dónde vamos a parar
+-Eso ya la piel nos lo dirá
+-Para qué jurar y prometer
+-Algo que no está en nuestro poder
+-
+-Yo no sé lo que es eterno
+-No me pidas algo que es del tiempo
++Zwrotka 1
+
+ Yo no sé mañana, yo no sé mañana
+ Si estaremos juntos, si se acaba el mundo
+
+commit 326c66817973c3d064716616b61912c15bd6049e
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Mon Aug 28 23:38:58 2023 +0200
+
+    Pierwszy commit - dodanie pliku piosenka.txt i dodanie słów piosenki
+
+diff --git a/piosenka.txt b/piosenka.txt
+new file mode 100644
+index 0000000..c4e62ee
+--- /dev/null
++++ b/piosenka.txt
+@@ -0,0 +1,78 @@
++Uh, uh-uh-uh
++No-oh-oh
++Na-na-ra-na-na-ah-ah
++
++Yo no sé si tú, no sé si yo
++Seguiremos siendo como hoy
++No sé si después de amanecer
++Vamos a sentir la misma sed
++
++Para qué pensar y suponer
++No preguntes cosas que no sé
++Yo no sé
++
++No sé dónde vamos a parar
++Eso ya la piel nos lo dirá
++Para qué jurar y prometer
++Algo que no está en nuestro poder
++
++Yo no sé lo que es eterno
++No me pidas algo que es del tiempo
++
++Yo no sé mañana, yo no sé mañana
++Si estaremos juntos, si se acaba el mundo
++Yo no sé si soy para ti, si serás para mí
++Si lleguemos a amarnos o a odiarnos
++Yo no sé mañana, yo no sé mañana
++Quién va estar aquí
++
++De un café pasamos al sofá
++De un botón a todo lo demás
++No pusimos reglas ni reloj
++Aquí estamos solos tú y yo
++
++Todo lo que ves es lo que soy
++No me pidas más de lo que doy
++No-oh-oh
++
++Yo no sé mañana, yo no sé mañana
++Si estaremos juntos, si se acaba el mundo
++Yo no sé si soy para ti, si serás para mí
++Si lleguemos a amarnos o a odiarnos
++Yo no sé mañana, yo no sé mañana
++Quién va estar aquí
++
++Esta vida es igual que a un libro
++Cada página es un día vivido
++No tratemos de correr antes de andar
++
++Esta noche estamos vivos
++Sólo este momento es realidad
++No, oh, uh, no sé, oh
++
++Esta vida es una ruleta que gira sin parar
++(Yo no sé mañana)
++Yo no sé si tú, yo no sé si yo, cómo será el final
++
++Puede ser peor o puede ser mejor
++(Yo no sé mañana)
++Deja que el corazón decida, vida mía, lo que sentimos
++
++Mañana, yo no sé
++
++Ahora lo que vivimos es algo realmente lindo
++¿Quién puede saber lo que pasará?
++Mañana no hay nada escrito
++
++Estamos solos tú y yo
++Y los momentos hay que vivirlos
++Hay que vivirlos (Oye)
++
++Yo no sé, yo no sé
++Yo no sé, yo no sé
++
++Yo no sé mañana, yo no sé mañana
++Si estaremos juntos, si se acaba el mundo
++Yo no sé si soy para ti, si serás para mí
++Si lleguemos a amarnos o a odiarnos
++Yo no sé mañana, yo no sé mañana
+\ No newline at end of file
+
+
+
+
+$ git log -p refren.txt
+commit 563a57386dd179b26fbece4ffb3a7b3ffd5a366c
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 22:38:08 2023 +0200
+
+    Usunięcie powtarzających się plików refren i zmiana nazwy refrenu na refren.txt
+
+diff --git a/refren.txt b/refren.txt
+new file mode 100644
+index 0000000..9b8053a
+--- /dev/null
++++ b/refren.txt
+@@ -0,0 +1,5 @@
++Yo no sé mañana, yo no sé mañana
++Si estaremos juntos, si se acaba el mundo
++Yo no sé si soy para ti, si serás para mí
++Si lleguemos a amarnos o a odiarnos
++Yo no sé mañana, yo no sé mañana
+\ No newline at end of file
+
+
+
+$ git log -p 'zwrotka 1.txt'
+commit 4585f5ee119678be5ae827fb380be9cd2a266ffa
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:33:05 2023 +0200
+
+    Utworzenie pliku zwrotka 1.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/zwrotka 1.txt b/zwrotka 1.txt
+new file mode 100644
+index 0000000..63b0f99
+--- /dev/null
++++ b/zwrotka 1.txt
+@@ -0,0 +1,20 @@
++Uh, uh-uh-uh
++No-oh-oh
++Na-na-ra-na-na-ah-ah
++
++Yo no sé si tú, no sé si yo
++Seguiremos siendo como hoy
++No sé si después de amanecer
++Vamos a sentir la misma sed
++
++Para qué pensar y suponer
++No preguntes cosas que no sé
++Yo no sé
++
++No sé dónde vamos a parar
++Eso ya la piel nos lo dirá
++Para qué jurar y prometer
++Algo que no está en nuestro poder
++
++Yo no sé lo que es eterno
++No me pidas algo que es del tiempo
+\ No newline at end of file
+
+
+
+$ git log -p 'zwrotka 2.txt'
+commit f7b4f1d0cecc926346928932122551b7ca8c8dbb
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:36:43 2023 +0200
+
+    Utworzenie pliku zwrotka 2.txt i modyfikacja tekstu w piosenka.txt
+
+diff --git a/zwrotka 2.txt b/zwrotka 2.txt
+new file mode 100644
+index 0000000..18b540e
+--- /dev/null
++++ b/zwrotka 2.txt
+@@ -0,0 +1,8 @@
++De un café pasamos al sofá
++De un botón a todo lo demás
++No pusimos reglas ni reloj
++Aquí estamos solos tú y yo
++
++Todo lo que ves es lo que soy
++No me pidas más de lo que doy
++No-oh-oh
+
+
+
+$ git log -p 'zwrotka 3.txt'
+commit 77ff92bf72188c8ea311acb19e080db8bd3c9498
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:39:52 2023 +0200
+
+    Utworzenie pliku zwrotka 3.txt i modyfikacja tekstu w piosenka.txt
+
+
+diff --git a/zwrotka 3.txt b/zwrotka 3.txt
+new file mode 100644
+index 0000000..512f825
+--- /dev/null
++++ b/zwrotka 3.txt
+@@ -0,0 +1,28 @@
++Esta vida es igual que a un libro
++Cada página es un día vivido
++No tratemos de correr antes de andar
++
++Esta noche estamos vivos
++Sólo este momento es realidad
++No, oh, uh, no sé, oh
++
++Esta vida es una ruleta que gira sin parar
++(Yo no sé mañana)
++Yo no sé si tú, yo no sé si yo, cómo será el final
++
++Puede ser peor o puede ser mejor
++(Yo no sé mañana)
++Deja que el corazón decida, vida mía, lo que sentimos
++
++Mañana, yo no sé
++
++Ahora lo que vivimos es algo realmente lindo
++¿Quién puede saber lo que pasará?
++Mañana no hay nada escrito
++
++Estamos solos tú y yo
++Y los momentos hay que vivirlos
++Hay que vivirlos (Oye)
++
++Yo no sé, yo no sé
++Yo no sé, yo no sé
+\ No newline at end of file
+
+
+
+$ git log
+commit 2ef5b0251ed4e4ef1dfe103221bddc55b50f5954 (HEAD -> master, origin/master)
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 22:38:57 2023 +0200
+
+    Poprawienie nazw plików w pliku piosenka.txt
+
+commit 563a57386dd179b26fbece4ffb3a7b3ffd5a366c
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 22:38:08 2023 +0200
+
+    Usunięcie powtarzających się plików refren i zmiana nazwy refrenu na refren.txt
+
+commit af213fb229038067c411f549e3f219630b5ec438
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 22:25:49 2023 +0200
+
+    Revert "Usunięcie pierwszej linii w pliku refren 1.txt" - przywrócenie pierwszej linii
+
+    This reverts commit a97c425e6fcc9faaa1f8fd220ab196647b037680.
+
+commit a97c425e6fcc9faaa1f8fd220ab196647b037680
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 22:12:19 2023 +0200
+
+    Usunięcie pierwszej linii w pliku refren 1.txt
+
+commit 787d2446b0a7dc239323343788458b4738f6a5fc
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:43:22 2023 +0200
+
+    Poprawienie nazw plików (dodanie rozszerzenia) w pliku piosenka.txt
+
+commit 70aa4466354a5d7c316b30844a4733461b9c5078
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:40:42 2023 +0200
+
+    Utworzenie pliku refren 3.txt i modyfikacja tekstu w piosenka.txt
+
+commit 77ff92bf72188c8ea311acb19e080db8bd3c9498
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:39:52 2023 +0200
+
+    Utworzenie pliku zwrotka 3.txt i modyfikacja tekstu w piosenka.txt
+
+commit 0f8fe6b527af9c7959fafb8356fcdc2b2db1d52b
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:37:42 2023 +0200
+
+    Utworzenie pliku refren 2.txt i modyfikacja tekstu w piosenka.txt
+
+commit f7b4f1d0cecc926346928932122551b7ca8c8dbb
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:36:43 2023 +0200
+
+    Utworzenie pliku zwrotka 2.txt i modyfikacja tekstu w piosenka.txt
+
+commit 14cd605f1c6875355de6954c0dd5b63551e7bae6
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:34:42 2023 +0200
+
+    Utworzenie pliku refren 1.txt i modyfikacja tekstu w piosenka.txt
+
+commit 4585f5ee119678be5ae827fb380be9cd2a266ffa
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Tue Aug 29 21:33:05 2023 +0200
+
+    Utworzenie pliku zwrotka 1.txt i modyfikacja tekstu w piosenka.txt
+
+commit 326c66817973c3d064716616b61912c15bd6049e
+Author: nedved942 <pawelkoziol77@wp.pl>
+Date:   Mon Aug 28 23:38:58 2023 +0200
+
+    Pierwszy commit - dodanie pliku piosenka.txt i dodanie słów piosenki
