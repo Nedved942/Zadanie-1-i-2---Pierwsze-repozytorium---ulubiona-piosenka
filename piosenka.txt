@@ -1,11 +1,11 @@
-Zwrotka 1.txt
+zwrotka 1.txt
 
-Refren.txt
+refren.txt
 
-Zwrotka 2.txt
+zwrotka 2.txt
 
-Refren.txt
+refren.txt
 
-Zwrotka 3.txt
+zwrotka 3.txt
 
-Refren.txt
+refren.txt
